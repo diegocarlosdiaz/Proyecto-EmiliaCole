@@ -1,0 +1,57 @@
+/* header del home */
+
+header{
+    padding-top: 30px;
+}
+header nav{
+    margin-left: 60px;
+}
+
+header nav ul li a{
+    color: grey;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+header nav a{
+    color: black;
+}
+
+/* header horizontal */
+
+header.row nav{
+    text-align: right;
+}
+
+header.row nav.menu{
+    background-color: rgba(255, 255, 255, .5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header.row nav ul li{
+    display: inline-block;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header.row nav ul li:last-child{
+    border-right: 1px solid black;
+}
+
+header.row nav ul li a{
+    color: black;
+    line-height: 20px;
+}
+
+header.music{
+    background-image: url('/images/emilia-music-top.jpg');
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header.music nav{
+    margin-left: 0;
+}
